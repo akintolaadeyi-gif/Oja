@@ -1,0 +1,143 @@
+{
+  "product_description": "A moringa leaf powder capsule produced in Enugu marketed as an immune booster",
+  "category": "dietary_supplement",
+  "queries": [
+    "NAFDAC guidelines for registration of dietary supplements and herbal capsules in Nigeria",
+    "NAFDAC regulatory requirements for labeling herbal medicine immune boosters",
+    "NAFDAC compliance documents locally manufactured nutraceuticals moringa powder capsules"
+  ],
+  "passages_retrieved": 4,
+  "brief": {
+    "product_summary": "Locally produced moringa leaf powder capsules manufactured in Enugu and marketed as an immune booster dietary supplement.",
+    "category": "dietary_supplement",
+    "primary_regulatory_body": "NAFDAC",
+    "additional_bodies": [
+      "CAC"
+    ],
+    "required_permits": [
+      {
+        "permit": "NAFDAC Product Registration",
+        "issuing_body": "NAFDAC",
+        "notes": "Requires completed application, minimum 6 product samples, safety and efficacy data, certificate of analysis for ingredients, list of ingredients with INCI or pharmacopoeial names, proposed label complying with guidelines, and stability/shelf life data.",
+        "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "permit": "GMP Compliance Certificate / Inspection Approval",
+        "issuing_body": "NAFDAC",
+        "notes": "Mandatory requirement where local manufacturing facilities in Enugu must pass a NAFDAC GMP inspection.",
+        "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "permit": "Certificate of Incorporation / Business Registration",
+        "issuing_body": "CAC",
+        "notes": "Prerequisite corporate documentation required as part of the NAFDAC registration application.",
+        "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+      }
+    ],
+    "estimated_timeline": "6 to 12 months. Herbal and botanical supplement registrations typically take longer due to required safety/efficacy reviews and additional traditional use documentation.",
+    "risk_flags": [
+      {
+        "flag": "Immune booster claims are under increased NAFDAC scrutiny and require scientific backing and substantiation.",
+        "severity": "high",
+        "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "flag": "Making prohibited disease treatment claims will cause the product to be reclassified and regulated as a pharmaceutical drug.",
+        "severity": "high",
+        "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "flag": "Failure of the local manufacturing facility in Enugu to pass mandatory NAFDAC GMP inspection will block product registration.",
+        "severity": "medium",
+        "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+      }
+    ],
+    "recommended_first_steps": [
+      "Obtain a CAC registration certificate for the business entity.",
+      "Compile scientific evidence and safety data to substantiate the 'immune booster' structure-function claim.",
+      "Prepare the manufacturing facility in Enugu for a NAFDAC GMP inspection and collect Certificates of Analysis and stability data for the product."
+    ],
+    "confidence": "high",
+    "confidence_note": "The retrieved sources explicitly detail NAFDAC rules, claim restrictions, timelines, and mandatory submission documents for locally manufactured dietary and herbal supplements."
+  },
+  "trajectory": [
+    {
+      "step": "classify",
+      "output": "dietary_supplement"
+    },
+    {
+      "step": "queries",
+      "queries": [
+        "NAFDAC guidelines for registration of dietary supplements and herbal capsules in Nigeria",
+        "NAFDAC regulatory requirements for labeling herbal medicine immune boosters",
+        "NAFDAC compliance documents locally manufactured nutraceuticals moringa powder capsules"
+      ]
+    },
+    {
+      "step": "retrieval",
+      "count": 4,
+      "sources": [
+        "NAFDAC Dietary Supplement and Herbal Registration",
+        "NAFDAC Food Registration Requirements",
+        "NAFDAC Import Permit and Export Certificate Requirements",
+        "NAFDAC Cosmetics Registration Requirements"
+      ]
+    },
+    {
+      "step": "synthesis",
+      "brief": {
+        "product_summary": "Locally produced moringa leaf powder capsules manufactured in Enugu and marketed as an immune booster dietary supplement.",
+        "category": "dietary_supplement",
+        "primary_regulatory_body": "NAFDAC",
+        "additional_bodies": [
+          "CAC"
+        ],
+        "required_permits": [
+          {
+            "permit": "NAFDAC Product Registration",
+            "issuing_body": "NAFDAC",
+            "notes": "Requires completed application, minimum 6 product samples, safety and efficacy data, certificate of analysis for ingredients, list of ingredients with INCI or pharmacopoeial names, proposed label complying with guidelines, and stability/shelf life data.",
+            "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "permit": "GMP Compliance Certificate / Inspection Approval",
+            "issuing_body": "NAFDAC",
+            "notes": "Mandatory requirement where local manufacturing facilities in Enugu must pass a NAFDAC GMP inspection.",
+            "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "permit": "Certificate of Incorporation / Business Registration",
+            "issuing_body": "CAC",
+            "notes": "Prerequisite corporate documentation required as part of the NAFDAC registration application.",
+            "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+          }
+        ],
+        "estimated_timeline": "6 to 12 months. Herbal and botanical supplement registrations typically take longer due to required safety/efficacy reviews and additional traditional use documentation.",
+        "risk_flags": [
+          {
+            "flag": "Immune booster claims are under increased NAFDAC scrutiny and require scientific backing and substantiation.",
+            "severity": "high",
+            "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "flag": "Making prohibited disease treatment claims will cause the product to be reclassified and regulated as a pharmaceutical drug.",
+            "severity": "high",
+            "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "flag": "Failure of the local manufacturing facility in Enugu to pass mandatory NAFDAC GMP inspection will block product registration.",
+            "severity": "medium",
+            "source": "SOURCE 1: NAFDAC Dietary Supplement and Herbal Registration"
+          }
+        ],
+        "recommended_first_steps": [
+          "Obtain a CAC registration certificate for the business entity.",
+          "Compile scientific evidence and safety data to substantiate the 'immune booster' structure-function claim.",
+          "Prepare the manufacturing facility in Enugu for a NAFDAC GMP inspection and collect Certificates of Analysis and stability data for the product."
+        ],
+        "confidence": "high",
+        "confidence_note": "The retrieved sources explicitly detail NAFDAC rules, claim restrictions, timelines, and mandatory submission documents for locally manufactured dietary and herbal supplements."
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "product_description": "A shea butter body cream sold in Lagos",
+  "category": "cosmetics",
+  "queries": [
+    "NAFDAC guidelines for cosmetic product registration in Nigeria",
+    "Nigeria regulatory compliance requirements for body cream cosmetics",
+    "NAFDAC cosmetic regulations for shea butter skincare products"
+  ],
+  "passages_retrieved": 4,
+  "brief": {
+    "product_summary": "A shea butter skin cream intended for sale in Lagos, classified as a cosmetic product requiring NAFDAC notification or registration before commercial distribution.",
+    "category": "cosmetics",
+    "primary_regulatory_body": "NAFDAC",
+    "additional_bodies": [
+      "CAC"
+    ],
+    "required_permits": [
+      {
+        "permit": "NAFDAC Cosmetic Product Notification / Registration",
+        "issuing_body": "NAFDAC",
+        "notes": "Mandatory prior to commercial distribution. Low-risk cosmetics use a faster notification pathway (1-3 months), while higher-risk or therapeutic cosmetics require full registration. Requires NAFDAC application form, CAC registration, INCI ingredient list, Certificate of Analysis, safety data, proposed label, product samples, and GMP certificate for local products.",
+        "source": "NAFDAC Cosmetics Registration Requirements"
+      },
+      {
+        "permit": "CAC Business Name or Certificate of Incorporation",
+        "issuing_body": "CAC",
+        "notes": "Required as supporting documentation for NAFDAC cosmetic registration/notification application.",
+        "source": "NAFDAC Cosmetics Registration Requirements"
+      }
+    ],
+    "estimated_timeline": "1 to 3 months for low-risk cosmetics via the notification pathway, assuming no therapeutic or drug claims are made.",
+    "risk_flags": [
+      {
+        "flag": "Making therapeutic or health claims (e.g., clinically proven, medically tested, or therapeutic outcomes) causes reclassification as a drug/pharmaceutical, requiring a different and more rigorous registration pathway.",
+        "severity": "high",
+        "source": "NAFDAC Cosmetics Registration Requirements"
+      },
+      {
+        "flag": "Use of prohibited or restricted cosmetic ingredients (e.g., Hydroquinone over 2%, Mercury compounds, Kojic acid over 1%, or Corticosteroids).",
+        "severity": "high",
+        "source": "NAFDAC Cosmetics Registration Requirements"
+      }
+    ],
+    "recommended_first_steps": [
+      "Ensure CAC registration (Certificate of Incorporation or Business Name) is active.",
+      "Compile the product formula with INCI nomenclature, obtaining safety data and a Certificate of Analysis for each ingredient while confirming no prohibited/restricted substances are present.",
+      "Obtain GMP certificate for the local manufacturing facility, prepare compliant label artwork, and submit product samples with the NAFDAC cosmetics application."
+    ],
+    "confidence": "high",
+    "confidence_note": "Direct compliance documentation and timelines for cosmetics in Nigeria are explicitly detailed in SOURCE 1."
+  },
+  "trajectory": [
+    {
+      "step": "classify",
+      "output": "cosmetics"
+    },
+    {
+      "step": "queries",
+      "queries": [
+        "NAFDAC guidelines for cosmetic product registration in Nigeria",
+        "Nigeria regulatory compliance requirements for body cream cosmetics",
+        "NAFDAC cosmetic regulations for shea butter skincare products"
+      ]
+    },
+    {
+      "step": "retrieval",
+      "count": 4,
+      "sources": [
+        "NAFDAC Cosmetics Registration Requirements",
+        "NAFDAC Import Permit and Export Certificate Requirements",
+        "NAFDAC Food Registration Requirements",
+        "NAFDAC Dietary Supplement and Herbal Registration"
+      ]
+    },
+    {
+      "step": "synthesis",
+      "brief": {
+        "product_summary": "A shea butter skin cream intended for sale in Lagos, classified as a cosmetic product requiring NAFDAC notification or registration before commercial distribution.",
+        "category": "cosmetics",
+        "primary_regulatory_body": "NAFDAC",
+        "additional_bodies": [
+          "CAC"
+        ],
+        "required_permits": [
+          {
+            "permit": "NAFDAC Cosmetic Product Notification / Registration",
+            "issuing_body": "NAFDAC",
+            "notes": "Mandatory prior to commercial distribution. Low-risk cosmetics use a faster notification pathway (1-3 months), while higher-risk or therapeutic cosmetics require full registration. Requires NAFDAC application form, CAC registration, INCI ingredient list, Certificate of Analysis, safety data, proposed label, product samples, and GMP certificate for local products.",
+            "source": "NAFDAC Cosmetics Registration Requirements"
+          },
+          {
+            "permit": "CAC Business Name or Certificate of Incorporation",
+            "issuing_body": "CAC",
+            "notes": "Required as supporting documentation for NAFDAC cosmetic registration/notification application.",
+            "source": "NAFDAC Cosmetics Registration Requirements"
+          }
+        ],
+        "estimated_timeline": "1 to 3 months for low-risk cosmetics via the notification pathway, assuming no therapeutic or drug claims are made.",
+        "risk_flags": [
+          {
+            "flag": "Making therapeutic or health claims (e.g., clinically proven, medically tested, or therapeutic outcomes) causes reclassification as a drug/pharmaceutical, requiring a different and more rigorous registration pathway.",
+            "severity": "high",
+            "source": "NAFDAC Cosmetics Registration Requirements"
+          },
+          {
+            "flag": "Use of prohibited or restricted cosmetic ingredients (e.g., Hydroquinone over 2%, Mercury compounds, Kojic acid over 1%, or Corticosteroids).",
+            "severity": "high",
+            "source": "NAFDAC Cosmetics Registration Requirements"
+          }
+        ],
+        "recommended_first_steps": [
+          "Ensure CAC registration (Certificate of Incorporation or Business Name) is active.",
+          "Compile the product formula with INCI nomenclature, obtaining safety data and a Certificate of Analysis for each ingredient while confirming no prohibited/restricted substances are present.",
+          "Obtain GMP certificate for the local manufacturing facility, prepare compliant label artwork, and submit product samples with the NAFDAC cosmetics application."
+        ],
+        "confidence": "high",
+        "confidence_note": "Direct compliance documentation and timelines for cosmetics in Nigeria are explicitly detailed in SOURCE 1."
+      }
+    }
+  ]
+}
