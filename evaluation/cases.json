@@ -1,8 +1,169 @@
 [
-  {"id": "case_01", "category": "food_beverage", "product_description": "A zobo hibiscus drink in 50cl PET bottles sold in Lagos supermarkets", "expected_regulatory_body": "NAFDAC", "expected_permits": ["NAFDAC product registration", "CAC business registration", "NAFDAC facility inspection"], "expected_flags": ["PET bottle suitability", "Shelf life testing required", "Nutritional labelling mandatory"], "difficulty": "standard"},
-  {"id": "case_02", "category": "food_beverage", "product_description": "A groundnut oil brand cold-pressed in Kano sold in 1-litre glass bottles, founder wants to export to the UK", "expected_regulatory_body": "NAFDAC, NEPC", "expected_permits": ["NAFDAC product registration", "NEPC exporter registration", "CAC registration", "NAFDAC export certificate"], "expected_flags": ["Export pathway requires separate NAFDAC export certificate", "UK market requires UK Food Safety Act compliance", "Aflatoxin testing likely required"], "difficulty": "hard"},
-  {"id": "case_03", "category": "cosmetics", "product_description": "A shea butter body cream formulated in Ibadan with shea butter coconut oil vitamin E and lavender essential oil", "expected_regulatory_body": "NAFDAC", "expected_permits": ["NAFDAC cosmetic product notification", "CAC business registration"], "expected_flags": ["Ingredient list must be INCI compliant", "Lavender oil concentration limits apply"], "difficulty": "standard"},
-  {"id": "case_04", "category": "cosmetics", "product_description": "A skin-lightening serum containing kojic acid manufactured in China to be imported and rebranded for the Nigerian market", "expected_regulatory_body": "NAFDAC", "expected_permits": ["NAFDAC import permit", "NAFDAC product registration", "CAC registration"], "expected_flags": ["Kojic acid concentration limits apply", "Rebranding requires manufacturer authorization", "Import permit and registration are separate"], "difficulty": "hard"},
-  {"id": "case_05", "category": "dietary_supplement", "product_description": "A moringa leaf powder capsule produced in Enugu marketed as an immune booster", "expected_regulatory_body": "NAFDAC", "expected_permits": ["NAFDAC supplement registration", "CAC registration", "GMP certificate"], "expected_flags": ["Immune booster claim requires scientific backing", "Herbal registration timeline 6-12 months"], "difficulty": "standard"},
-  {"id": "case_06", "category": "dietary_supplement", "product_description": "A multivitamin gummy for children aged 2-12 containing vitamins A C D zinc and iron produced locally sold in pharmacies", "expected_regulatory_body": "NAFDAC", "expected_permits": ["NAFDAC paediatric supplement registration", "CAC registration", "GMP certificate"], "expected_flags": ["Paediatric products face stricter review", "Iron supplements have dosage caps", "Child-resistant packaging required"], "difficulty": "hard"}
+  {
+    "id": "case_01",
+    "category": "food_beverage",
+    "product_description": "A zobo hibiscus drink in 50cl PET bottles sold in Lagos supermarkets",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC product registration",
+      "CAC business registration",
+      "NAFDAC facility inspection"
+    ],
+    "expected_flags": [
+      "PET bottle suitability",
+      "Shelf life testing required",
+      "Nutritional labelling mandatory"
+    ],
+    "difficulty": "standard"
+  },
+  {
+    "id": "case_02",
+    "category": "food_beverage",
+    "product_description": "A groundnut oil brand cold-pressed in Kano sold in 1-litre glass bottles, founder wants to export to the UK",
+    "expected_regulatory_body": "NAFDAC, NEPC",
+    "expected_permits": [
+      "NAFDAC product registration",
+      "NEPC exporter registration",
+      "CAC registration",
+      "NAFDAC export certificate"
+    ],
+    "expected_flags": [
+      "Export pathway requires separate NAFDAC export certificate",
+      "UK market requires UK Food Safety Act compliance",
+      "Aflatoxin testing likely required"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "case_03",
+    "category": "cosmetics",
+    "product_description": "A shea butter body cream formulated in Ibadan with shea butter coconut oil vitamin E and lavender essential oil",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC cosmetic product notification",
+      "CAC business registration"
+    ],
+    "expected_flags": [
+      "Ingredient list must be INCI compliant",
+      "Lavender oil concentration limits apply"
+    ],
+    "difficulty": "standard"
+  },
+  {
+    "id": "case_04",
+    "category": "cosmetics",
+    "product_description": "A skin-lightening serum containing kojic acid manufactured in China to be imported and rebranded for the Nigerian market",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC import permit",
+      "NAFDAC product registration",
+      "CAC registration"
+    ],
+    "expected_flags": [
+      "Kojic acid concentration limits apply",
+      "Rebranding requires manufacturer authorization",
+      "Import permit and registration are separate"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "case_05",
+    "category": "dietary_supplement",
+    "product_description": "A moringa leaf powder capsule produced in Enugu marketed as an immune booster",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC supplement registration",
+      "CAC registration",
+      "GMP certificate"
+    ],
+    "expected_flags": [
+      "Immune booster claim requires scientific backing",
+      "Herbal registration timeline 6-12 months"
+    ],
+    "difficulty": "standard"
+  },
+  {
+    "id": "case_06",
+    "category": "dietary_supplement",
+    "product_description": "A multivitamin gummy for children aged 2-12 containing vitamins A C D zinc and iron produced locally sold in pharmacies",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC paediatric supplement registration",
+      "CAC registration",
+      "GMP certificate"
+    ],
+    "expected_flags": [
+      "Paediatric products face stricter review",
+      "Iron supplements have dosage caps",
+      "Child-resistant packaging required"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "case_07",
+    "category": "food_beverage",
+    "product_description": "A packaged bottled water brand produced in Abuja in 75cl PET bottles for retail sale",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC product registration",
+      "CAC business registration",
+      "NAFDAC facility inspection"
+    ],
+    "expected_flags": [
+      "Water quality testing required",
+      "PET packaging suitability",
+      "Mandatory product labelling"
+    ],
+    "difficulty": "standard"
+  },
+  {
+    "id": "case_08",
+    "category": "food_beverage",
+    "product_description": "A locally produced tomato pepper sauce packaged in 350g glass jars and sold through Nigerian supermarkets",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC product registration",
+      "CAC business registration",
+      "NAFDAC facility inspection"
+    ],
+    "expected_flags": [
+      "Microbiological testing required",
+      "Shelf life testing required",
+      "Food labelling requirements"
+    ],
+    "difficulty": "standard"
+  },
+  {
+    "id": "case_09",
+    "category": "cosmetics",
+    "product_description": "A locally manufactured liquid black soap containing honey aloe vera and fragrance intended for sale in Nigerian beauty stores",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC cosmetic product notification",
+      "CAC business registration"
+    ],
+    "expected_flags": [
+      "Ingredient list requirements",
+      "Product labelling requirements",
+      "Safety and quality testing"
+    ],
+    "difficulty": "standard"
+  },
+  {
+    "id": "case_10",
+    "category": "dietary_supplement",
+    "product_description": "An imported omega-3 fish oil softgel supplement manufactured in Germany and intended for sale through Nigerian pharmacies",
+    "expected_regulatory_body": "NAFDAC",
+    "expected_permits": [
+      "NAFDAC supplement registration",
+      "NAFDAC import registration",
+      "CAC registration"
+    ],
+    "expected_flags": [
+      "Imported supplements require regulatory approval",
+      "Manufacturer documentation required",
+      "Product safety and quality testing"
+    ],
+    "difficulty": "hard"
+  }
 ]

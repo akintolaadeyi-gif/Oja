@@ -1,0 +1,169 @@
+{
+  "product_description": "A skin-lightening serum containing kojic acid manufactured in China to be imported and rebranded for the Nigerian market",
+  "category": "cosmetics",
+  "queries": [
+    "NAFDAC guidelines for registration of imported cosmetics Nigeria",
+    "NAFDAC regulations skin lightening products kojic acid cosmetics",
+    "NAFDAC requirements private label rebranding imported cosmetics Nigeria"
+  ],
+  "passages_retrieved": 4,
+  "brief": {
+    "product_summary": "A skin-lightening cosmetic serum containing kojic acid, manufactured in China for importation, rebranding, and sale in Nigeria.",
+    "category": "cosmetics",
+    "primary_regulatory_body": "NAFDAC",
+    "additional_bodies": [
+      "CAC (Corporate Affairs Commission)"
+    ],
+    "required_permits": [
+      {
+        "permit": "NAFDAC Import Permit",
+        "issuing_body": "NAFDAC",
+        "notes": "Mandatory prior to importing regulated cosmetic products into Nigeria. Requires CAC certificate, proforma invoice, manufacturer certificate, Certificate of Free Sale, test report/CoA, and product label.",
+        "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+      },
+      {
+        "permit": "NAFDAC Cosmetics Notification or Registration",
+        "issuing_body": "NAFDAC",
+        "notes": "All cosmetic products sold in Nigeria must be notified or registered before commercial distribution. The rebranded product may require its own registration separate from the original.",
+        "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+      },
+      {
+        "permit": "Manufacturer Written Authorisation for Rebranding",
+        "issuing_body": "Original Manufacturer in China",
+        "notes": "Required to legally rebrand or relabel imported cosmetic products.",
+        "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+      },
+      {
+        "permit": "Rebranding Facility Registration",
+        "issuing_body": "NAFDAC",
+        "notes": "The facility used for rebranding the imported product must be registered with NAFDAC.",
+        "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+      },
+      {
+        "permit": "CAC Certificate of Incorporation or Business Name",
+        "issuing_body": "CAC",
+        "notes": "Prerequisite document for NAFDAC product registration and import permit applications.",
+        "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+      }
+    ],
+    "estimated_timeline": "Approximately 1 to 3 months for the low-risk cosmetics notification pathway; however, higher-risk or therapeutic cosmetics require full registration for which specific timelines are unstated.",
+    "risk_flags": [
+      {
+        "flag": "Kojic acid is a restricted ingredient in Nigeria with concentration limits typically set at 1% or below.",
+        "severity": "high",
+        "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+      },
+      {
+        "flag": "Making health or therapeutic claims (e.g., clinically proven, medically tested, or therapeutic outcomes) will cause the product to be reclassified as a drug/pharmaceutical, triggering a more rigorous registration pathway.",
+        "severity": "high",
+        "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+      },
+      {
+        "flag": "Rebranding imported products requires specific written authorization from the foreign manufacturer and registration of the local rebranding facility with NAFDAC.",
+        "severity": "medium",
+        "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+      }
+    ],
+    "recommended_first_steps": [
+      "Confirm that the formulation's kojic acid concentration does not exceed NAFDAC's restricted limit of 1% or below.",
+      "Obtain CAC registration (Certificate of Incorporation or Business Name) in Nigeria.",
+      "Secure written authorization from the Chinese manufacturer for rebranding/relabelling along with a Certificate of Free Sale, Certificate of Analysis, and ingredient breakdown (INCI nomenclature).",
+      "Register the rebranding facility with NAFDAC and apply for a NAFDAC Import Permit before shipping goods into Nigeria."
+    ],
+    "confidence": "high",
+    "confidence_note": "The retrieved passages explicitly detail NAFDAC cosmetics registration pathways, import permit requirements, rebranding rules, and specific restrictions on kojic acid."
+  },
+  "trajectory": [
+    {
+      "step": "classify",
+      "output": "cosmetics"
+    },
+    {
+      "step": "queries",
+      "queries": [
+        "NAFDAC guidelines for registration of imported cosmetics Nigeria",
+        "NAFDAC regulations skin lightening products kojic acid cosmetics",
+        "NAFDAC requirements private label rebranding imported cosmetics Nigeria"
+      ]
+    },
+    {
+      "step": "retrieval",
+      "count": 4,
+      "sources": [
+        "NAFDAC Cosmetics Registration Requirements",
+        "NAFDAC Import Permit and Export Certificate Requirements",
+        "NAFDAC Dietary Supplement and Herbal Registration",
+        "NAFDAC Food Registration Requirements"
+      ]
+    },
+    {
+      "step": "synthesis",
+      "brief": {
+        "product_summary": "A skin-lightening cosmetic serum containing kojic acid, manufactured in China for importation, rebranding, and sale in Nigeria.",
+        "category": "cosmetics",
+        "primary_regulatory_body": "NAFDAC",
+        "additional_bodies": [
+          "CAC (Corporate Affairs Commission)"
+        ],
+        "required_permits": [
+          {
+            "permit": "NAFDAC Import Permit",
+            "issuing_body": "NAFDAC",
+            "notes": "Mandatory prior to importing regulated cosmetic products into Nigeria. Requires CAC certificate, proforma invoice, manufacturer certificate, Certificate of Free Sale, test report/CoA, and product label.",
+            "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+          },
+          {
+            "permit": "NAFDAC Cosmetics Notification or Registration",
+            "issuing_body": "NAFDAC",
+            "notes": "All cosmetic products sold in Nigeria must be notified or registered before commercial distribution. The rebranded product may require its own registration separate from the original.",
+            "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+          },
+          {
+            "permit": "Manufacturer Written Authorisation for Rebranding",
+            "issuing_body": "Original Manufacturer in China",
+            "notes": "Required to legally rebrand or relabel imported cosmetic products.",
+            "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+          },
+          {
+            "permit": "Rebranding Facility Registration",
+            "issuing_body": "NAFDAC",
+            "notes": "The facility used for rebranding the imported product must be registered with NAFDAC.",
+            "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+          },
+          {
+            "permit": "CAC Certificate of Incorporation or Business Name",
+            "issuing_body": "CAC",
+            "notes": "Prerequisite document for NAFDAC product registration and import permit applications.",
+            "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+          }
+        ],
+        "estimated_timeline": "Approximately 1 to 3 months for the low-risk cosmetics notification pathway; however, higher-risk or therapeutic cosmetics require full registration for which specific timelines are unstated.",
+        "risk_flags": [
+          {
+            "flag": "Kojic acid is a restricted ingredient in Nigeria with concentration limits typically set at 1% or below.",
+            "severity": "high",
+            "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+          },
+          {
+            "flag": "Making health or therapeutic claims (e.g., clinically proven, medically tested, or therapeutic outcomes) will cause the product to be reclassified as a drug/pharmaceutical, triggering a more rigorous registration pathway.",
+            "severity": "high",
+            "source": "SOURCE 1: NAFDAC Cosmetics Registration Requirements"
+          },
+          {
+            "flag": "Rebranding imported products requires specific written authorization from the foreign manufacturer and registration of the local rebranding facility with NAFDAC.",
+            "severity": "medium",
+            "source": "SOURCE 2: NAFDAC Import Permit and Export Certificate Requirements"
+          }
+        ],
+        "recommended_first_steps": [
+          "Confirm that the formulation's kojic acid concentration does not exceed NAFDAC's restricted limit of 1% or below.",
+          "Obtain CAC registration (Certificate of Incorporation or Business Name) in Nigeria.",
+          "Secure written authorization from the Chinese manufacturer for rebranding/relabelling along with a Certificate of Free Sale, Certificate of Analysis, and ingredient breakdown (INCI nomenclature).",
+          "Register the rebranding facility with NAFDAC and apply for a NAFDAC Import Permit before shipping goods into Nigeria."
+        ],
+        "confidence": "high",
+        "confidence_note": "The retrieved passages explicitly detail NAFDAC cosmetics registration pathways, import permit requirements, rebranding rules, and specific restrictions on kojic acid."
+      }
+    }
+  ]
+}

@@ -42,3 +42,15 @@ Requirements: Python 3.11+, Supabase account, Gemini API key (free at aistudio.g
 ## Trajectories
 
 See trajectories/ directory — one JSON file per agent run.
+
+## Evaluation Results (10 cases)
+
+| Metric | Baseline | Agent | Change |
+|---|---|---|---|
+| Average composite score | 0.53 | 0.88 | +0.35 |
+| Hard cases average | 0.44 | 0.90 | +0.46 |
+| Standard cases average | 0.57 | 0.85 | +0.28 |
+| Source citations | 0 | Every claim | — |
+| Hallucinations detected | 4 cases | 0 cases | -4 |
+
+Scoring: regulatory body correct (35%) + permit coverage (40%) + flag coverage (25%) - hallucination penalty.

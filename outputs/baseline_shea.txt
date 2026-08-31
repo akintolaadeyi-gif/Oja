@@ -1,0 +1,71 @@
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ BASELINE RUN                                                                                                                                                                                   │
+│ Model: gemini-3.6-flash                                                                                                                                                                        │
+│ Tools: None                                                                                                                                                                                    │
+│ Retrieval: None                                                                                                                                                                                │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Product: A shea butter body cream sold in Lagos
+
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+Baseline Response:
+Here is your regulatory compliance advisory for launching your **Shea Butter Body Cream** in Lagos.
+
+---
+
+### 1. Primary Regulatory Body Responsible
+* **NAFDAC (National Agency for Food and Drug Administration and Control):** Primary authority governing the manufacture, importation, advertisement, distribution, and sale of cosmetics in 
+Nigeria under the *Cosmetics and Toiletries (Registration) Regulations*.
+
+---
+
+### 2. Required Permits and Registrations
+
+#### **A. Corporate & Intellectual Property Setup**
+1. **CAC (Corporate Affairs Commission):** Register your business as a **Limited Liability Company (Ltd)** or a **Business Name**. 
+   * *Advice:* An "Ltd" is strongly recommended if you intend to scale, stock in major supermarkets, or secure corporate funding.
+2. **Trademark Registration:** File for trademark protection with the *Commercial Law Department, Federal Ministry of Industry, Trade and Investment* to secure your brand name and logo before 
+submitting labels to NAFDAC.
+
+#### **B. NAFDAC Product Registration (Cosmetics Scheme)**
+1. **Facility Inspection & Good Manufacturing Practice (GMP) Approval:** NAFDAC officers must inspect your production venue to ensure it meets cosmetic manufacturing hygiene standards.
+2. **Product Laboratory Analysis:** Sample testing for safety parameters (microbiology, heavy metals, stability, and pH).
+3. **Product Registration / Listing Certificate:** Granting a NAFDAC Registration Number (mandatory to print on product packaging).
+   * *Note for Small Scale:* You can leverage NAFDAC’s **MSME Fast-Track / Cottage Industry Scheme**, which offers reduced fees and simpler facility requirements for small-batch producers.
+
+#### **C. Other Relevant Bodies**
+* **SON (Standards Organisation of Nigeria):** Mandatory Conformity Assessment Programme (**MANCAP**) certification for locally manufactured goods.
+* **LASEPA (Lagos State Environmental Protection Agency):** Required if operating a standalone factory in Lagos (waste disposal and environmental audit compliance).
+* **LIRS & FIRS:** Tax Identification Numbers (TIN) for state and federal tax compliance.
+
+---
+
+### 3. Key Compliance Risks & Flags
+
+* **Medical / Therapeutic Claims (High Risk):** 
+  * *Flag:* Do **not** use claims like *"cures eczema," "treats hyperpigmentation," "relieves arthritis,"* or *"anti-fungal."* 
+  * *Consequence:* NAFDAC will reject your application or classify the product as a **Drug/Medicament**, which requires far stricter, more expensive clinical trials. Stick to cosmetic claims: 
+*"moisturizes," "softens skin," "promotes smooth skin."*
+* **Home Kitchen Production Rules:** 
+  * *Flag:* Manufacturing directly in your home kitchen is prohibited unless you have a designated, isolated space that meets NAFDAC Cottage Industry guidelines (seamless flooring, washable 
+walls, pest control, dedicated changing areas, stainless steel mixing equipment).
+* **Banned Ingredients & Heavy Metals:** 
+  * Ensure raw additives (e.g., fragrances, preservatives, oils) do not contain hydroquinone, steroids, mercury, or restricted parabens. NAFDAC lab analysis *will* detect these.
+* **Strict Labeling Guidelines:**
+  * Labels must include: Full ingredient list (using INCI nomenclature), net volume/weight, manufacturing & expiry dates, batch number, manufacturer’s address, storage conditions, and a 
+dedicated space for the **NAFDAC Reg. No.**
+
+---
+
+### 4. Rough Timeline Estimate
+
+| Phase | Activity | Estimated Duration |
+| :--- | :--- | :--- |
+| **Phase 1** | CAC Business Registration & Trademark Filing | 1 – 3 weeks |
+| **Phase 2** | Facility Setup & Pre-assessment (Cottage/Factory setup) | 2 – 4 weeks |
+| **Phase 3** | NAFDAC Portal Application, Document Vetting & Payment | 2 – 3 weeks |
+| **Phase 4** | NAFDAC Physical Facility Inspection & Sample Vetting | 3 – 6 weeks |
+| **Phase 5** | NAFDAC Lab Testing & Final Approval / Number Issuance | 8 – 12 weeks |
+| **TOTAL** | **Full End-to-End Launch Readiness** | **Approx. 4 to 6 Months** |
+
+*(Note: Utilizing NAFDAC’s MSME desk can slightly compress the timeline for local, small-batch formulations).*

@@ -44,31 +44,11 @@ OUTPUT FORMAT:
 def call_gemini(prompt: str, system: str = None) -> str:
     client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
     full_prompt = f"{system}\n\n{prompt}" if system else prompt
-
-    last_error = None
-
-    for attempt in range(5):
-        try:
-            response = client.models.generate_content(
-                model="gemini-3.6-flash",
-                contents=full_prompt
-            )
-            return response.text
-        except Exception as e:
-            last_error = e
-            error_text = str(e)
-
-            if "503" not in error_text and "UNAVAILABLE" not in error_text:
-                raise
-
-            wait_time = 2 ** attempt
-            console.print(
-                f"[yellow]Gemini temporarily unavailable. "
-                f"Retry {attempt + 1}/5 in {wait_time}s...[/yellow]"
-            )
-            time.sleep(wait_time)
-
-    raise last_error
+    response = client.models.generate_content(
+        model="gemini-3.6-flash",
+        contents=full_prompt
+    )
+    return response.text
 
 
 def get_embedding(text: str) -> list:
