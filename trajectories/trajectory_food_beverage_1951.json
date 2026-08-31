@@ -1,0 +1,145 @@
+{
+  "product_description": "A zobo hibiscus drink in 50cl PET bottles sold in Lagos supermarkets targeting retail chains",
+  "category": "food_beverage",
+  "queries": [
+    "NAFDAC guidelines for registration of pre-packaged food and beverages in Nigeria",
+    "NAFDAC pre-packaged food labelling regulations PET bottle beverages",
+    "Standards Organisation of Nigeria NIS non-alcoholic drinks packaging requirements"
+  ],
+  "passages_retrieved": 4,
+  "brief": {
+    "product_summary": "A 50cl PET bottled zobo (hibiscus) drink produced for commercial sale in Lagos supermarkets and retail chains.",
+    "category": "food_beverage",
+    "primary_regulatory_body": "NAFDAC",
+    "additional_bodies": [
+      "Standards Organisation of Nigeria (SON)"
+    ],
+    "required_permits": [
+      {
+        "permit": "NAFDAC Food Product Registration",
+        "issuing_body": "NAFDAC",
+        "notes": "Mandatory for all food products manufactured or imported for commercial sale in Nigeria. Requires facility inspection, CAC certificate, GMP evidence, water analysis report, safety evidence, and compliant labelling artwork.",
+        "source": "SOURCE 1: NAFDAC Food Registration Requirements"
+      },
+      {
+        "permit": "SON Product Certification (MANCAP / NIS Quality Mark)",
+        "issuing_body": "Standards Organisation of Nigeria (SON)",
+        "notes": "Mandatory conformity assessment and certification for bottled beverages to verify compliance with relevant Nigerian Industrial Standards (NIS). Involves product testing and factory inspection.",
+        "source": "SOURCE 4: Standards Organisation of Nigeria SON Consumer Goods Standards"
+      }
+    ],
+    "estimated_timeline": "3 to 6 months for NAFDAC food product registration, alongside additional time required for SON document review, laboratory testing, and factory inspection.",
+    "risk_flags": [
+      {
+        "flag": "Mandatory facility inspection and Good Manufacturing Practice (GMP) standards compliance prior to NAFDAC registration grant.",
+        "severity": "high",
+        "source": "SOURCE 1: NAFDAC Food Registration Requirements"
+      },
+      {
+        "flag": "Water analysis report is mandatory if water is used as an ingredient in the product formulation.",
+        "severity": "medium",
+        "source": "SOURCE 1: NAFDAC Food Registration Requirements"
+      },
+      {
+        "flag": "SON strictly enforces net weight/content accuracy tolerance limits; underweight 50cl packaging constitutes a legal offense.",
+        "severity": "medium",
+        "source": "SOURCE 4: Standards Organisation of Nigeria SON Consumer Goods Standards"
+      },
+      {
+        "flag": "If therapeutic or structure/function health claims (e.g., immune booster) are placed on the zobo drink label, it may trigger additional NAFDAC scrutiny or reclassification under herbal/supplement guidelines requiring scientific substantiation.",
+        "severity": "medium",
+        "source": "SOURCE 3: NAFDAC Dietary Supplement and Herbal Registration"
+      }
+    ],
+    "recommended_first_steps": [
+      "Obtain CAC Certificate of Incorporation and establish manufacturing facility evidence.",
+      "Conduct a water analysis test and compile a complete list of ingredients with manufacturing flowcharts and shelf-life study reports.",
+      "Design standard-compliant product labels containing net content (50cl), ingredients in descending order, manufacturer address, nutritional info, best before date, and storage instructions.",
+      "Prepare manufacturing facility for NAFDAC mandatory GMP inspection (check eligibility for simplified SMEDAN pathway if a small-scale producer).",
+      "Submit application for SON mandatory conformity assessment and product testing for bottled beverages."
+    ],
+    "confidence": "high",
+    "confidence_note": "All requirements, timeline estimates, regulatory bodies, and risk flags are derived directly from NAFDAC Food Registration and SON Consumer Goods Standards passages."
+  },
+  "trajectory": [
+    {
+      "step": "classify",
+      "output": "food_beverage"
+    },
+    {
+      "step": "queries",
+      "queries": [
+        "NAFDAC guidelines for registration of pre-packaged food and beverages in Nigeria",
+        "NAFDAC pre-packaged food labelling regulations PET bottle beverages",
+        "Standards Organisation of Nigeria NIS non-alcoholic drinks packaging requirements"
+      ]
+    },
+    {
+      "step": "retrieval",
+      "count": 4,
+      "sources": [
+        "NAFDAC Food Registration Requirements",
+        "NAFDAC Import Permit and Export Certificate Requirements",
+        "NAFDAC Dietary Supplement and Herbal Registration",
+        "Standards Organisation of Nigeria SON Consumer Goods Standards"
+      ]
+    },
+    {
+      "step": "synthesis",
+      "brief": {
+        "product_summary": "A 50cl PET bottled zobo (hibiscus) drink produced for commercial sale in Lagos supermarkets and retail chains.",
+        "category": "food_beverage",
+        "primary_regulatory_body": "NAFDAC",
+        "additional_bodies": [
+          "Standards Organisation of Nigeria (SON)"
+        ],
+        "required_permits": [
+          {
+            "permit": "NAFDAC Food Product Registration",
+            "issuing_body": "NAFDAC",
+            "notes": "Mandatory for all food products manufactured or imported for commercial sale in Nigeria. Requires facility inspection, CAC certificate, GMP evidence, water analysis report, safety evidence, and compliant labelling artwork.",
+            "source": "SOURCE 1: NAFDAC Food Registration Requirements"
+          },
+          {
+            "permit": "SON Product Certification (MANCAP / NIS Quality Mark)",
+            "issuing_body": "Standards Organisation of Nigeria (SON)",
+            "notes": "Mandatory conformity assessment and certification for bottled beverages to verify compliance with relevant Nigerian Industrial Standards (NIS). Involves product testing and factory inspection.",
+            "source": "SOURCE 4: Standards Organisation of Nigeria SON Consumer Goods Standards"
+          }
+        ],
+        "estimated_timeline": "3 to 6 months for NAFDAC food product registration, alongside additional time required for SON document review, laboratory testing, and factory inspection.",
+        "risk_flags": [
+          {
+            "flag": "Mandatory facility inspection and Good Manufacturing Practice (GMP) standards compliance prior to NAFDAC registration grant.",
+            "severity": "high",
+            "source": "SOURCE 1: NAFDAC Food Registration Requirements"
+          },
+          {
+            "flag": "Water analysis report is mandatory if water is used as an ingredient in the product formulation.",
+            "severity": "medium",
+            "source": "SOURCE 1: NAFDAC Food Registration Requirements"
+          },
+          {
+            "flag": "SON strictly enforces net weight/content accuracy tolerance limits; underweight 50cl packaging constitutes a legal offense.",
+            "severity": "medium",
+            "source": "SOURCE 4: Standards Organisation of Nigeria SON Consumer Goods Standards"
+          },
+          {
+            "flag": "If therapeutic or structure/function health claims (e.g., immune booster) are placed on the zobo drink label, it may trigger additional NAFDAC scrutiny or reclassification under herbal/supplement guidelines requiring scientific substantiation.",
+            "severity": "medium",
+            "source": "SOURCE 3: NAFDAC Dietary Supplement and Herbal Registration"
+          }
+        ],
+        "recommended_first_steps": [
+          "Obtain CAC Certificate of Incorporation and establish manufacturing facility evidence.",
+          "Conduct a water analysis test and compile a complete list of ingredients with manufacturing flowcharts and shelf-life study reports.",
+          "Design standard-compliant product labels containing net content (50cl), ingredients in descending order, manufacturer address, nutritional info, best before date, and storage instructions.",
+          "Prepare manufacturing facility for NAFDAC mandatory GMP inspection (check eligibility for simplified SMEDAN pathway if a small-scale producer).",
+          "Submit application for SON mandatory conformity assessment and product testing for bottled beverages."
+        ],
+        "confidence": "high",
+        "confidence_note": "All requirements, timeline estimates, regulatory bodies, and risk flags are derived directly from NAFDAC Food Registration and SON Consumer Goods Standards passages."
+      }
+    }
+  ]
+}

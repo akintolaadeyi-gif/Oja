@@ -1,0 +1,145 @@
+{
+  "product_description": "A multivitamin gummy for children aged 2-12 containing vitamins A C D zinc and iron produced locally sold in pharmacies",
+  "category": "dietary_supplement",
+  "queries": [
+    "NAFDAC guidelines for registration of locally manufactured dietary supplements in Nigeria",
+    "NAFDAC regulations for vitamin and mineral supplements for children",
+    "NAFDAC labeling and good manufacturing practice regulations dietary supplements Nigeria"
+  ],
+  "passages_retrieved": 4,
+  "brief": {
+    "product_summary": "Locally manufactured multivitamin gummy for children aged 2-12 containing vitamins A, C, D, zinc, and iron for sale in pharmacies.",
+    "category": "dietary_supplement",
+    "primary_regulatory_body": "NAFDAC",
+    "additional_bodies": [
+      "CAC"
+    ],
+    "required_permits": [
+      {
+        "permit": "NAFDAC Dietary Supplement Product Registration",
+        "issuing_body": "NAFDAC",
+        "notes": "Mandatory registration requiring completed NAFDAC application, CAC registration certificate, ingredient list with INCI/pharmacopoeial names, CoA for each ingredient, safety/efficacy data, proposed label, minimum 6 samples, GMP certificate, and stability data.",
+        "source": "NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "permit": "NAFDAC GMP Certificate",
+        "issuing_body": "NAFDAC",
+        "notes": "Mandatory for local manufacturing facilities; facility must pass NAFDAC GMP inspection.",
+        "source": "NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "permit": "CAC Registration Certificate",
+        "issuing_body": "CAC",
+        "notes": "Required as part of the supporting documentation for NAFDAC registration application.",
+        "source": "NAFDAC Dietary Supplement and Herbal Registration"
+      }
+    ],
+    "estimated_timeline": "Longer than standard NAFDAC review timelines due to additional review required for paediatric products (exact duration for paediatric non-herbal supplements is not specified, but herbal dietary supplements take 6 to 12 months).",
+    "risk_flags": [
+      {
+        "flag": "Paediatric formulation requirements: Paediatric supplements for children under 12 require additional safety data, which extends the NAFDAC review timeline.",
+        "severity": "high",
+        "source": "NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "flag": "Iron dosage caps and packaging: Iron-containing supplements for children have specific dosage caps and mandatory child-resistant packaging requirements.",
+        "severity": "high",
+        "source": "NAFDAC Dietary Supplement and Herbal Registration"
+      },
+      {
+        "flag": "Strict health claim regulations: Immune booster claims face increased NAFDAC scrutiny and require scientific backing; disease therapeutic claims are prohibited unless registered as a drug.",
+        "severity": "medium",
+        "source": "NAFDAC Dietary Supplement and Herbal Registration"
+      }
+    ],
+    "recommended_first_steps": [
+      "Obtain CAC registration certificate for the enterprise.",
+      "Prepare manufacturing facility for NAFDAC GMP inspection to secure mandatory GMP compliance evidence.",
+      "Compile required paediatric safety data, stability shelf-life data, and Certificates of Analysis for all active and inactive ingredients.",
+      "Ensure gummy formulation complies with iron dosage caps for children and design packaging with required child-resistant mechanisms."
+    ],
+    "confidence": "high",
+    "confidence_note": "Source 1 directly addresses NAFDAC dietary supplement registration, including explicit rules for paediatric products, iron content, child-resistant packaging, and facility GMP requirements."
+  },
+  "trajectory": [
+    {
+      "step": "classify",
+      "output": "dietary_supplement"
+    },
+    {
+      "step": "queries",
+      "queries": [
+        "NAFDAC guidelines for registration of locally manufactured dietary supplements in Nigeria",
+        "NAFDAC regulations for vitamin and mineral supplements for children",
+        "NAFDAC labeling and good manufacturing practice regulations dietary supplements Nigeria"
+      ]
+    },
+    {
+      "step": "retrieval",
+      "count": 4,
+      "sources": [
+        "NAFDAC Dietary Supplement and Herbal Registration",
+        "NAFDAC Food Registration Requirements",
+        "NAFDAC Import Permit and Export Certificate Requirements",
+        "NAFDAC Cosmetics Registration Requirements"
+      ]
+    },
+    {
+      "step": "synthesis",
+      "brief": {
+        "product_summary": "Locally manufactured multivitamin gummy for children aged 2-12 containing vitamins A, C, D, zinc, and iron for sale in pharmacies.",
+        "category": "dietary_supplement",
+        "primary_regulatory_body": "NAFDAC",
+        "additional_bodies": [
+          "CAC"
+        ],
+        "required_permits": [
+          {
+            "permit": "NAFDAC Dietary Supplement Product Registration",
+            "issuing_body": "NAFDAC",
+            "notes": "Mandatory registration requiring completed NAFDAC application, CAC registration certificate, ingredient list with INCI/pharmacopoeial names, CoA for each ingredient, safety/efficacy data, proposed label, minimum 6 samples, GMP certificate, and stability data.",
+            "source": "NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "permit": "NAFDAC GMP Certificate",
+            "issuing_body": "NAFDAC",
+            "notes": "Mandatory for local manufacturing facilities; facility must pass NAFDAC GMP inspection.",
+            "source": "NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "permit": "CAC Registration Certificate",
+            "issuing_body": "CAC",
+            "notes": "Required as part of the supporting documentation for NAFDAC registration application.",
+            "source": "NAFDAC Dietary Supplement and Herbal Registration"
+          }
+        ],
+        "estimated_timeline": "Longer than standard NAFDAC review timelines due to additional review required for paediatric products (exact duration for paediatric non-herbal supplements is not specified, but herbal dietary supplements take 6 to 12 months).",
+        "risk_flags": [
+          {
+            "flag": "Paediatric formulation requirements: Paediatric supplements for children under 12 require additional safety data, which extends the NAFDAC review timeline.",
+            "severity": "high",
+            "source": "NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "flag": "Iron dosage caps and packaging: Iron-containing supplements for children have specific dosage caps and mandatory child-resistant packaging requirements.",
+            "severity": "high",
+            "source": "NAFDAC Dietary Supplement and Herbal Registration"
+          },
+          {
+            "flag": "Strict health claim regulations: Immune booster claims face increased NAFDAC scrutiny and require scientific backing; disease therapeutic claims are prohibited unless registered as a drug.",
+            "severity": "medium",
+            "source": "NAFDAC Dietary Supplement and Herbal Registration"
+          }
+        ],
+        "recommended_first_steps": [
+          "Obtain CAC registration certificate for the enterprise.",
+          "Prepare manufacturing facility for NAFDAC GMP inspection to secure mandatory GMP compliance evidence.",
+          "Compile required paediatric safety data, stability shelf-life data, and Certificates of Analysis for all active and inactive ingredients.",
+          "Ensure gummy formulation complies with iron dosage caps for children and design packaging with required child-resistant mechanisms."
+        ],
+        "confidence": "high",
+        "confidence_note": "Source 1 directly addresses NAFDAC dietary supplement registration, including explicit rules for paediatric products, iron content, child-resistant packaging, and facility GMP requirements."
+      }
+    }
+  ]
+}
